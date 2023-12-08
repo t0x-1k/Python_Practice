@@ -1,0 +1,8 @@
+6 initial paths
+	1. Path one leads to Rappan Athuk(Dungeon with two rooms)
+	2. Path two leads to a fork with two more paths(Path one leads to Tegel Manor(Home-multiple rooms) Path two leads to path six
+	3. Path three leads to The Temple of Black Earth(Dungeon three rooms)
+	4. Path four leads to Stonehell Dungeon(Dungeon with three rooms)
+	5. Path five leads back to path two
+	6. Path six leads to Barrowmaze(Maze with no rooms)
+

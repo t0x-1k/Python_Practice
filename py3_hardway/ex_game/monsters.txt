@@ -1,0 +1,6 @@
+	Beholder
+	Illithid
+Kraken
+Ogre
+Goblin
+	Haunted Armor

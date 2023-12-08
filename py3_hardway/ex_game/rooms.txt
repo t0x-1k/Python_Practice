@@ -1,0 +1,33 @@
+Tegel Manor(Home-multiple rooms)
+	traps(Room1, Room2, Room3):
+		Room1:Collapsing Roof  
+		Room2:Compacting Room
+		Room3:Wall of Poison Darts
+
+Rappan Athuk(Dungeon with two rooms)
+	traps(Room1, Room2)
+		Room1:Summon Monster Trap(Goblin)
+		Room2:Mimic(beast disquised as a treasure_chest or any inanimate object)	
+
+The Temple of Black Earth(Dungeon three rooms)
+	traps(Room1, Room2, Room3)
+		Room1:Teleport Doorway(Could lead random location??)
+		Room2:False Treasure Room
+		Room3:Flooding Room
+
+Stonehell Dungeon(Dungeon with three rooms)
+	traps(Room1, Room2, Room3)
+		Room1:Exploding tiles
+		Room2:Summon Monster Trap(Beholder)
+		Room3:Enchanted Sentry(Illithid)
+
+Barrowmaze(Maze with four paths)
+	traps(Path1, Path2, Path3, Path4)
+		Path1:Riddle Door(use to move different paths or Monster: Haunted Armor)
+		Path2:Duplicate mirror
+		Path3:Fire-Breathing Statue
+		Path4:Leaves the Maze
+
+			
+			
+			

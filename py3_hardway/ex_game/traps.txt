@@ -1,0 +1,13 @@
+	Compacting Room
+	Wall of Poison Darts
+	Collapsing Roof
+	Summon Monster Trap
+	Flooding Room
+	Mimic(beast disquised as a treasure_chest or any inanimate object)
+	Exploding tiles
+	False Treasure Room
+	Riddle Door(use for movement to and from rooms? Or just monster behind door)
+	Duplicate mirror
+	Fire-Breathing Statue
+	Teleport Doorway(Could lead random location??)
+	Enchanted Sentry
