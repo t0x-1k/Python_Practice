@@ -1,0 +1,29 @@
+class TreeNode:
+    def __init__(self, value):
+        self.val = value
+        self.left = None
+        self.right = None
+
+def inorderTraversal(node):
+    result = []
+    inorderHelper(node, result)
+    return result
+
+
+def inorderHelper(node, result):
+    if node:
+        inorderHelper(node.left, result)
+        result.append(node.val)
+        inorderHelper(node.right, result)
+
+
+
+
+node = TreeNode(1)
+node.left = TreeNode(null)
+node.right = TreeNode(2)
+node.left.left = TreeNode(3)
+
+
+result = inorderTraversal(node)
+print(result)

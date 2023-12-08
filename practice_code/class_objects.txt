@@ -1,0 +1,63 @@
+"is-a" Relationship:
+
+    An "is-a" relationship indicates inheritance or specialization. It implies that one class is a subtype of another. For example, if class B is a subclass of class A, you would say that "B is a kind of A." This relationship is often modeled using class inheritance.
+
+    python
+
+    class Animal:
+        pass
+
+    class Dog(Animal):
+        pass
+
+    In this example, you might say that a Dog is a kind of Animal.
+
+"has-a" Relationship:
+
+    A "has-a" relationship indicates composition or containment. It implies that one class has another class as a part or component. For example, if an object of class A contains an object of class B, you would say that "A has a B." This relationship is often modeled using instance variables.
+
+    python
+
+        class Car:
+            def __init__(self, engine):
+                self.engine = engine
+
+        class Engine:
+            pass
+
+        In this example, you might say that a Car has an Engine.
+
+In Python, you can use both of these relationships to model different aspects of your program. Here's a more concrete example:
+
+python
+
+class Vehicle:
+    def drive(self):
+        print("Driving the vehicle")
+
+class Car(Vehicle):
+    def __init__(self, engine):
+        self.engine = engine
+
+    def start(self):
+        print("Starting the car")
+
+class Engine:
+    def run(self):
+        print("Engine is running")
+
+# "is-a" relationship
+my_car = Car(engine=Engine())
+my_car.start()
+my_car.drive()
+
+# "has-a" relationship
+my_vehicle = Vehicle()
+my_vehicle.drive()
+
+In this example:
+
+    Car is a subclass of Vehicle, representing an "is-a" relationship.
+    Car has an Engine, representing a "has-a" relationship.
+
+Understanding and appropriately using "is-a" and "has-a" relationships is fundamental in designing object-oriented systems and can help create more flexible and modular code.
